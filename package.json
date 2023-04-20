@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Whatsapp Bot for Milind Mishra",
+  "main": "index.js",
+  "scripts": {
+    "normal-bot": "pm2-runtime app.js",
+    "openai-bot": "pm2-runtime index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-bot"
+  ],
+  "author": "Milind Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.5"
+  },
+  "devDependencies": {
+    "pm2": "^5.3.0"
+  }
+}
