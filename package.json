@@ -4,7 +4,7 @@
   "description": "Whatsapp Bot for Milind Mishra",
   "main": "index.js",
   "scripts": {
-    "normal-bot": "pm2-runtime app.js",
+    "simple-bot": "pm2-runtime app.js",
     "openai-bot": "pm2-runtime index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
